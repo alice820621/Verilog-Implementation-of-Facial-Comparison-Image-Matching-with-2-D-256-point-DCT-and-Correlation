@@ -1,3 +1,5 @@
+#a resizing and grayscaling for ten photos, generating an input text file for Verilog device
+
 import numpy as np
 import matplotlib.pyplot as plt
 from PIL import Image
