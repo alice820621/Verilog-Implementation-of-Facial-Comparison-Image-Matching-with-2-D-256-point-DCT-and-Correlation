@@ -1,3 +1,4 @@
+//a fast 1-D 256-point DCT, the top Verilog module
 `timescale 1ns/1ps
 
 module dct256(clk, rst, pushin,
