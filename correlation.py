@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+#a correlation for ten photos
 
 from scipy.fftpack import dct
 import math
