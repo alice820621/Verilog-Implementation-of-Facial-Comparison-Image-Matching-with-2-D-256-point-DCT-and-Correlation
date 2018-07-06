@@ -1,3 +1,4 @@
+#a fixed point conversion from decimal to binary with 10-bit integer and 10-bit decimal
 
 #Data is 20-bit, 10-bit for integer and 10-bit for decimal.
 #The fraction algorithm is, the fraction part multiple by 2^10 (10-bit),
