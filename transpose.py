@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+#a transpose for the first 1-D DCT output of the Verilog device
 
 from scipy.fftpack import dct
 import math
