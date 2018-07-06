@@ -1,3 +1,5 @@
+//a cosine list used for butterfly's twiddle factor, the sub Verilog module
+
 module bfly(di1, di2, i, n, do1, do2);
 
 input [24:0] di1, di2;
