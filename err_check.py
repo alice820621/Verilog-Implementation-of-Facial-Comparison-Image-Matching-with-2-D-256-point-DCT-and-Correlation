@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+#an error checking between build-in DCT and the output of the Verilog device
 
 
 from scipy.fftpack import dct
