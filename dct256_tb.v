@@ -1,4 +1,3 @@
-
 module dct256_tb();
 
 reg clk, rst, pushin;
