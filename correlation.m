@@ -1,3 +1,5 @@
+//a correlation algorithm for two photos, not used in this project
+
 clc;
 clear;
 
