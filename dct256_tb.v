@@ -1,3 +1,5 @@
+//a testbench for dct256.v
+
 module dct256_tb();
 
 reg clk, rst, pushin;
