@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-#fast 1-D 256-point DCT
+#a fast 1-D 256-point DCT, comparing the error between normal DCT and fast DCT
 
 from scipy.fftpack import dct
 import math
