@@ -1,3 +1,4 @@
+#a fixed point conversion for twiddle factor from decimal to binary with 7-bit integer and 10/15/30-bit decimal
 
 #Twiddle factor is 17-bit, 7-bit for integer and 10-bit for decimal.
 #The maximum integer is 81 (7-bit), so the integer is 7-bit.
