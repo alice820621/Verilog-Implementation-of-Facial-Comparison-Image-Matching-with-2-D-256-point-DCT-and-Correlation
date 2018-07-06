@@ -1,0 +1,19 @@
+(Capstone Masters Project) Image Matching utilizing fast 1-D 256-point discrete cosine transform (DCT) running at 100MHz. The 256-point DCT has 16 layers with 128 operations each. Images are processed through the Verilog device in 1-D, transposed using a Python script, and processed through the Verilog device again as 2-D. The result is a correlation between two images via Python.
+
+
+Running order:
+	
+	-> grayscale.py
+	-> dct256.v
+	-> transpose.py
+	-> dct256.v
+	-> correlation.py
+
+Verilog code:
+	dct256.v		a fast 1-D 256-point DCT, the top Verilog module
+	bfly.v			a cosine list used for butterfly's twiddle factor, the sub Verilog module
+	dct256_tb.v		a testbench for dct256.v
+
+Python code:
+	correlation.py		a correlation for ten photos
+	dct16.py		a fast 1-D 16-point DCT, not used in this project
