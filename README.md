@@ -14,12 +14,12 @@ Codes running order in this project:
 
 
 Codes used in this project
-	Verilog code
+	Verilog
 		- dct256.v		a fast 1-D 256-point DCT, the top Verilog module
 		- bfly.v		a cosine list used for butterfly's twiddle factor, the sub Verilog module
 		- dct256_tb.v		a testbench for dct256.v
 
-	Python code
+	Python
 		- grayscale.py		a resizing and grayscaling for ten photos, generating an input text file for Verilog device
 		- transpose.py		a transpose for the first 1-D DCT output of the Verilog device
 		- err_check.py		an error checking between build-in DCT and the output of the Verilog device
@@ -28,7 +28,7 @@ Codes used in this project
 
 
 Codes used for planing or testing the project
-	Python code
+	Python
 		- print.py		a space for printing the needed Verilog code
 		- tw_to_bin.py		a fixed point conversion for twiddle factor 
 						from decimal to binary with 7-bit integer and 10/15/30-bit decimal
@@ -38,7 +38,7 @@ Codes used for planing or testing the project
 		- dec_to_bin.py		a fixed point conversion 
 						from decimal to binary with 10-bit integer and 10-bit decimal, not used in this project
 
-	Matlab code
+	Matlab
 		- correlation.m		a correlation algorithm for two photos, not used in this project
 
 
