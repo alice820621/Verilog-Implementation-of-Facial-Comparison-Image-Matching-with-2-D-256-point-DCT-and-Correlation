@@ -13,7 +13,7 @@ Codes running order in this project:
 	
 
 
-Codes used in this project:
+Codes used in this project
 	Verilog code
 		- dct256.v		a fast 1-D 256-point DCT, the top Verilog module
 		- bfly.v		a cosine list used for butterfly's twiddle factor, the sub Verilog module
@@ -27,7 +27,7 @@ Codes used in this project:
 
 
 
-Codes used for planing or testing the project:
+Codes used for planing or testing the project
 	Python code
 		- print.py		a space for printing the needed Verilog code
 		- tw_to_bin.py		a fixed point conversion for twiddle factor 
